@@ -7,15 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Simulation.h"
 
 int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
         
-        // insert code here...
-        NSLog(@"Hello, World!");
-        
+        NSString *filename = [NSString stringWithUTF8String:(const char *)argv[1]];
+        Simulation *simulation = [[Simulation alloc] initWithInputFileNamed:filename];
+        [simulation run];        
     }
     return 0;
 }

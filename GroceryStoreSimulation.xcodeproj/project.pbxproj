@@ -10,7 +10,36 @@
 		370491F618B7D47100312CAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 370491F518B7D47100312CAB /* Foundation.framework */; };
 		370491F918B7D47100312CAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 370491F818B7D47100312CAB /* main.m */; };
 		370491FD18B7D47100312CAB /* GroceryStoreSimulation.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 370491FC18B7D47100312CAB /* GroceryStoreSimulation.1 */; };
+		3704920518B7D4F200312CAB /* Simulation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3704920418B7D4F200312CAB /* Simulation.m */; };
+		3704920D18B7D68E00312CAB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3704920C18B7D68E00312CAB /* XCTest.framework */; };
+		3704921318B7D68E00312CAB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3704921118B7D68E00312CAB /* InfoPlist.strings */; };
+		3704921518B7D68E00312CAB /* GroceryStoreSimulation_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3704921418B7D68E00312CAB /* GroceryStoreSimulation_Tests.m */; };
+		373BA42B18B8644E00D21969 /* Example2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 373BA42A18B8644E00D21969 /* Example2.txt */; };
+		373BA42F18B865A900D21969 /* Example3.txt in Resources */ = {isa = PBXBuildFile; fileRef = 373BA42C18B865A900D21969 /* Example3.txt */; };
+		373BA43018B865A900D21969 /* Example4.txt in Resources */ = {isa = PBXBuildFile; fileRef = 373BA42D18B865A900D21969 /* Example4.txt */; };
+		373BA43118B865A900D21969 /* Example5.txt in Resources */ = {isa = PBXBuildFile; fileRef = 373BA42E18B865A900D21969 /* Example5.txt */; };
+		373BA43218B870D700D21969 /* GroceryStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 37CF54BC18B7E8A0005D9BCE /* GroceryStore.m */; };
+		373BA43318B870DB00D21969 /* Register.m in Sources */ = {isa = PBXBuildFile; fileRef = 37CF54C018B7E8CA005D9BCE /* Register.m */; };
+		373BA43418B870DE00D21969 /* Customer.m in Sources */ = {isa = PBXBuildFile; fileRef = 37CF54C318B7E8DD005D9BCE /* Customer.m */; };
+		373BA43518BADCAE00D21969 /* Example1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3704922118B7DDB000312CAB /* Example1.txt */; };
+		373BA43718BAE6C200D21969 /* GroceryStoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 373BA43618BAE6C200D21969 /* GroceryStoreTests.m */; };
+		373BA43918BB02D300D21969 /* RegisterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 373BA43818BB02D300D21969 /* RegisterTests.m */; };
+		373BA43B18BB074100D21969 /* CustomerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 373BA43A18BB074100D21969 /* CustomerTests.m */; };
+		37CF54BA18B7E6ED005D9BCE /* Simulation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3704920418B7D4F200312CAB /* Simulation.m */; };
+		37CF54BD18B7E8A0005D9BCE /* GroceryStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 37CF54BC18B7E8A0005D9BCE /* GroceryStore.m */; };
+		37CF54C118B7E8CA005D9BCE /* Register.m in Sources */ = {isa = PBXBuildFile; fileRef = 37CF54C018B7E8CA005D9BCE /* Register.m */; };
+		37CF54C418B7E8DD005D9BCE /* Customer.m in Sources */ = {isa = PBXBuildFile; fileRef = 37CF54C318B7E8DD005D9BCE /* Customer.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3704921718B7D68E00312CAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 370491EA18B7D47100312CAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 370491F118B7D47100312CAB;
+			remoteInfo = GroceryStoreSimulation;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		370491F018B7D47100312CAB /* CopyFiles */ = {
@@ -31,6 +60,28 @@
 		370491F818B7D47100312CAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		370491FB18B7D47100312CAB /* GroceryStoreSimulation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GroceryStoreSimulation-Prefix.pch"; sourceTree = "<group>"; };
 		370491FC18B7D47100312CAB /* GroceryStoreSimulation.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = GroceryStoreSimulation.1; sourceTree = "<group>"; };
+		3704920318B7D4F200312CAB /* Simulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Simulation.h; sourceTree = "<group>"; };
+		3704920418B7D4F200312CAB /* Simulation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Simulation.m; sourceTree = "<group>"; };
+		3704920B18B7D68E00312CAB /* GroceryStoreSimulation Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GroceryStoreSimulation Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3704920C18B7D68E00312CAB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3704921018B7D68E00312CAB /* GroceryStoreSimulation Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GroceryStoreSimulation Tests-Info.plist"; sourceTree = "<group>"; };
+		3704921218B7D68E00312CAB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3704921418B7D68E00312CAB /* GroceryStoreSimulation_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroceryStoreSimulation_Tests.m; sourceTree = "<group>"; };
+		3704921618B7D68E00312CAB /* GroceryStoreSimulation Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GroceryStoreSimulation Tests-Prefix.pch"; sourceTree = "<group>"; };
+		3704922118B7DDB000312CAB /* Example1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Example1.txt; path = ../GroceryStoreSimulation/Example1.txt; sourceTree = "<group>"; };
+		373BA42A18B8644E00D21969 /* Example2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Example2.txt; path = ../GroceryStoreSimulation/Example2.txt; sourceTree = "<group>"; };
+		373BA42C18B865A900D21969 /* Example3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Example3.txt; path = ../GroceryStoreSimulation/Example3.txt; sourceTree = "<group>"; };
+		373BA42D18B865A900D21969 /* Example4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Example4.txt; path = ../GroceryStoreSimulation/Example4.txt; sourceTree = "<group>"; };
+		373BA42E18B865A900D21969 /* Example5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Example5.txt; path = ../GroceryStoreSimulation/Example5.txt; sourceTree = "<group>"; };
+		373BA43618BAE6C200D21969 /* GroceryStoreTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroceryStoreTests.m; sourceTree = "<group>"; };
+		373BA43818BB02D300D21969 /* RegisterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterTests.m; sourceTree = "<group>"; };
+		373BA43A18BB074100D21969 /* CustomerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerTests.m; sourceTree = "<group>"; };
+		37CF54BB18B7E8A0005D9BCE /* GroceryStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroceryStore.h; sourceTree = "<group>"; };
+		37CF54BC18B7E8A0005D9BCE /* GroceryStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroceryStore.m; sourceTree = "<group>"; };
+		37CF54BF18B7E8CA005D9BCE /* Register.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Register.h; sourceTree = "<group>"; };
+		37CF54C018B7E8CA005D9BCE /* Register.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Register.m; sourceTree = "<group>"; };
+		37CF54C218B7E8DD005D9BCE /* Customer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Customer.h; sourceTree = "<group>"; };
+		37CF54C318B7E8DD005D9BCE /* Customer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Customer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +93,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3704920818B7D68E00312CAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3704920D18B7D68E00312CAB /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -49,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				370491F718B7D47100312CAB /* GroceryStoreSimulation */,
+				3704920E18B7D68E00312CAB /* GroceryStoreSimulation Tests */,
 				370491F418B7D47100312CAB /* Frameworks */,
 				370491F318B7D47100312CAB /* Products */,
 			);
@@ -58,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				370491F218B7D47100312CAB /* GroceryStoreSimulation */,
+				3704920B18B7D68E00312CAB /* GroceryStoreSimulation Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -66,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				370491F518B7D47100312CAB /* Foundation.framework */,
+				3704920C18B7D68E00312CAB /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -74,6 +136,9 @@
 			isa = PBXGroup;
 			children = (
 				370491F818B7D47100312CAB /* main.m */,
+				3704920318B7D4F200312CAB /* Simulation.h */,
+				3704920418B7D4F200312CAB /* Simulation.m */,
+				37CF54BE18B7E8A8005D9BCE /* Models */,
 				370491FC18B7D47100312CAB /* GroceryStoreSimulation.1 */,
 				370491FA18B7D47100312CAB /* Supporting Files */,
 			);
@@ -86,6 +151,46 @@
 				370491FB18B7D47100312CAB /* GroceryStoreSimulation-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3704920E18B7D68E00312CAB /* GroceryStoreSimulation Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3704921418B7D68E00312CAB /* GroceryStoreSimulation_Tests.m */,
+				373BA43A18BB074100D21969 /* CustomerTests.m */,
+				373BA43618BAE6C200D21969 /* GroceryStoreTests.m */,
+				373BA43818BB02D300D21969 /* RegisterTests.m */,
+				3704920F18B7D68E00312CAB /* Supporting Files */,
+			);
+			path = "GroceryStoreSimulation Tests";
+			sourceTree = "<group>";
+		};
+		3704920F18B7D68E00312CAB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3704922118B7DDB000312CAB /* Example1.txt */,
+				373BA42A18B8644E00D21969 /* Example2.txt */,
+				373BA42C18B865A900D21969 /* Example3.txt */,
+				373BA42D18B865A900D21969 /* Example4.txt */,
+				373BA42E18B865A900D21969 /* Example5.txt */,
+				3704921018B7D68E00312CAB /* GroceryStoreSimulation Tests-Info.plist */,
+				3704921118B7D68E00312CAB /* InfoPlist.strings */,
+				3704921618B7D68E00312CAB /* GroceryStoreSimulation Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37CF54BE18B7E8A8005D9BCE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				37CF54C218B7E8DD005D9BCE /* Customer.h */,
+				37CF54C318B7E8DD005D9BCE /* Customer.m */,
+				37CF54BB18B7E8A0005D9BCE /* GroceryStore.h */,
+				37CF54BC18B7E8A0005D9BCE /* GroceryStore.m */,
+				37CF54BF18B7E8CA005D9BCE /* Register.h */,
+				37CF54C018B7E8CA005D9BCE /* Register.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -108,6 +213,24 @@
 			productReference = 370491F218B7D47100312CAB /* GroceryStoreSimulation */;
 			productType = "com.apple.product-type.tool";
 		};
+		3704920A18B7D68E00312CAB /* GroceryStoreSimulation Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3704921918B7D68E00312CAB /* Build configuration list for PBXNativeTarget "GroceryStoreSimulation Tests" */;
+			buildPhases = (
+				3704920718B7D68E00312CAB /* Sources */,
+				3704920818B7D68E00312CAB /* Frameworks */,
+				3704920918B7D68E00312CAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3704921818B7D68E00312CAB /* PBXTargetDependency */,
+			);
+			name = "GroceryStoreSimulation Tests";
+			productName = "GroceryStoreSimulation Tests";
+			productReference = 3704920B18B7D68E00312CAB /* GroceryStoreSimulation Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -116,6 +239,11 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Dan Brajkovic";
+				TargetAttributes = {
+					3704920A18B7D68E00312CAB = {
+						TestTargetID = 370491F118B7D47100312CAB;
+					};
+				};
 			};
 			buildConfigurationList = 370491ED18B7D47100312CAB /* Build configuration list for PBXProject "GroceryStoreSimulation" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -130,20 +258,75 @@
 			projectRoot = "";
 			targets = (
 				370491F118B7D47100312CAB /* GroceryStoreSimulation */,
+				3704920A18B7D68E00312CAB /* GroceryStoreSimulation Tests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3704920918B7D68E00312CAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				373BA42F18B865A900D21969 /* Example3.txt in Resources */,
+				373BA43118B865A900D21969 /* Example5.txt in Resources */,
+				373BA42B18B8644E00D21969 /* Example2.txt in Resources */,
+				373BA43518BADCAE00D21969 /* Example1.txt in Resources */,
+				373BA43018B865A900D21969 /* Example4.txt in Resources */,
+				3704921318B7D68E00312CAB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		370491EE18B7D47100312CAB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37CF54BD18B7E8A0005D9BCE /* GroceryStore.m in Sources */,
+				3704920518B7D4F200312CAB /* Simulation.m in Sources */,
+				37CF54C118B7E8CA005D9BCE /* Register.m in Sources */,
 				370491F918B7D47100312CAB /* main.m in Sources */,
+				37CF54C418B7E8DD005D9BCE /* Customer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3704920718B7D68E00312CAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				373BA43218B870D700D21969 /* GroceryStore.m in Sources */,
+				373BA43718BAE6C200D21969 /* GroceryStoreTests.m in Sources */,
+				37CF54BA18B7E6ED005D9BCE /* Simulation.m in Sources */,
+				373BA43318B870DB00D21969 /* Register.m in Sources */,
+				3704921518B7D68E00312CAB /* GroceryStoreSimulation_Tests.m in Sources */,
+				373BA43918BB02D300D21969 /* RegisterTests.m in Sources */,
+				373BA43418B870DE00D21969 /* Customer.m in Sources */,
+				373BA43B18BB074100D21969 /* CustomerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3704921818B7D68E00312CAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 370491F118B7D47100312CAB /* GroceryStoreSimulation */;
+			targetProxy = 3704921718B7D68E00312CAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3704921118B7D68E00312CAB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3704921218B7D68E00312CAB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		370491FE18B7D47100312CAB /* Debug */ = {
@@ -232,6 +415,45 @@
 			};
 			name = Release;
 		};
+		3704921A18B7D68E00312CAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GroceryStoreSimulation Tests/GroceryStoreSimulation Tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GroceryStoreSimulation Tests/GroceryStoreSimulation Tests-Info.plist";
+				MACH_O_TYPE = mh_bundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = NO;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3704921B18B7D68E00312CAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GroceryStoreSimulation Tests/GroceryStoreSimulation Tests-Prefix.pch";
+				INFOPLIST_FILE = "GroceryStoreSimulation Tests/GroceryStoreSimulation Tests-Info.plist";
+				MACH_O_TYPE = mh_bundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = NO;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -251,6 +473,16 @@
 				3704920218B7D47100312CAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3704921918B7D68E00312CAB /* Build configuration list for PBXNativeTarget "GroceryStoreSimulation Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3704921A18B7D68E00312CAB /* Debug */,
+				3704921B18B7D68E00312CAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
